@@ -1,0 +1,5 @@
+@mixin getProperties($parent, $child) {
+    @each $property, $val in map-get($parent, $child) {
+        #{$property}: #{$val};
+    }
+}

@@ -1,0 +1,57 @@
+// please use properties as keys for the states arrays
+$transition: (
+    duration: .2s,
+    timing: linear,
+);
+
+$rails: (
+    // default styles
+    railX: (
+        bottom: 0,
+        height: 15px,
+    ),
+    railY: (
+        right: 0,
+        width: 15px,
+    ),
+    both: (
+        opacity: 0,
+        background-color: transparent,
+    ),
+    // main container hover, focus or scrolling styles
+    psHover: (
+        opacity: .6,
+    ),
+    // rail hover, focus or click
+    hover: (
+        opacity: .9,
+        background-color: #eee,
+    )
+);
+
+$thumbs: (
+    // default styles
+    thumbX: (
+        bottom: 2,
+        height: 6px,
+    ),
+    thumbY: (
+        right: 2,
+        width: 6px,
+    ),
+    both: (
+        border-radius: 6px,
+        background-color: #aaa,
+    ),
+    // railX hover, focus, or clicking styles
+    rXHover: (
+        height: 11px,
+    ),
+    // railY hover, focus, or clicking styles
+    rYHover: (
+        width: 11px,
+    ),
+    rBothHover: (
+        background-color: #999,
+    ),
+);
